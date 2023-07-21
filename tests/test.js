@@ -3,11 +3,11 @@
     Email:  niranjannsahoo@gmail.com
     Date: 2023-07-27
 */
-const ZKLib = require('../lib/zklib')
+const ZKLib = require('../index')
 const test = async () => {
 
 
-    let zkInstance = new ZKLib('10.20.0.6', 4370, 10000, 4000);
+    let zkInstance = new ZKLib('192.168.29.222', 4370, 10000, 4000);
     try {
         // Create socket to machine 
         await zkInstance.createSocket()
@@ -22,6 +22,9 @@ const test = async () => {
     // Disconnect the machine ( don't do this when you need realtime update :))) 
     // const users = await zkInstance.getUsers();
     // console.log(users.data.length);
+
+    const device = await zkInstance.getDeviceID();
+    console.log(device);
 
     const attendences = await zkInstance.getAttendances();
     console.log(attendences.data);
