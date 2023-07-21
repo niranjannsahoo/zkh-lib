@@ -1,0 +1,44 @@
+{
+  "name": "zkh-lib",
+  "version": "1.0.0",
+  "description": "This package allows for real-time tracking of employee attendance using a ZKTeco device and the device's IP address.",
+  "main": "index.js",
+  "scripts": {    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niranjannsahoo/zkh-lib.git"
+  },
+  "keywords": [
+    "zkteco",
+    "realtime",
+    "ateendance",
+    "ip",
+    "address",
+    "niranjannsahoo",
+    "niranjan",
+    "zkh-lib",
+    "zk",
+    "biometric",
+    "device",
+    "attendance",
+    "real-time",
+    "realtime",
+    "biometric attendance",
+    "biometric attendance device"
+  ],
+  "author": "Niranjan",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Niranjan Sahoo",
+      "email": "niranjannsahoo@gmail.com",
+      "github": "https://github.com/niranjannsahoo"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/niranjannsahoo/zkh-lib/issues"
+  },
+  "homepage": "https://github.com/niranjannsahoo/zkh-lib#readme"
+}
