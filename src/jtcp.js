@@ -631,7 +631,7 @@ class JTCP {
     command_string.writeUInt16LE(role, 2);
     command_string.write(password, 3, 8);
     command_string.write(name, 11, 24);
-    command_string.writeUInt16LE(cardno, 35);
+    command_string.writeUInt32LE(cardno, 35);
     command_string.writeUInt32LE(0, 40);
     command_string.write(userid ? userid.toString(9) : '', 48);
 
